@@ -40,8 +40,8 @@
 		845C8A28186C1EA9009FD01D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		845C8A2A186C1EA9009FD01D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		845C8A2C186C1EA9009FD01D /* patrolbuddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "patrolbuddy-Prefix.pch"; sourceTree = "<group>"; };
-		845C8A2D186C1EA9009FD01D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		845C8A2E186C1EA9009FD01D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845C8A2D186C1EA9009FD01D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		845C8A2E186C1EA9009FD01D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		845C8A30186C1EA9009FD01D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		845C8A36186C1EA9009FD01D /* patrolbuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = patrolbuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845C8A37186C1EA9009FD01D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -107,8 +107,9 @@
 		845C8A24186C1EA9009FD01D /* patrolbuddy */ = {
 			isa = PBXGroup;
 			children = (
-				845C8A2D186C1EA9009FD01D /* AppDelegate.h */,
-				845C8A2E186C1EA9009FD01D /* AppDelegate.m */,
+				845C8A4F186C1FE9009FD01D /* Controllers */,
+				845C8A4E186C1FCE009FD01D /* Views */,
+				845C8A4D186C1FB4009FD01D /* Models */,
 				845C8A30186C1EA9009FD01D /* Images.xcassets */,
 				845C8A25186C1EA9009FD01D /* Supporting Files */,
 			);
@@ -142,6 +143,29 @@
 				845C8A40186C1EA9009FD01D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845C8A4D186C1FB4009FD01D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		845C8A4E186C1FCE009FD01D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		845C8A4F186C1FE9009FD01D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				845C8A2D186C1EA9009FD01D /* AppDelegate.h */,
+				845C8A2E186C1EA9009FD01D /* AppDelegate.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
