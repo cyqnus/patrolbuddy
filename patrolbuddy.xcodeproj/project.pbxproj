@@ -19,6 +19,17 @@
 		845C8A3A186C1EA9009FD01D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C8A22186C1EA9009FD01D /* UIKit.framework */; };
 		845C8A42186C1EA9009FD01D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 845C8A40186C1EA9009FD01D /* InfoPlist.strings */; };
 		845C8A44186C1EA9009FD01D /* patrolbuddyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C8A43186C1EA9009FD01D /* patrolbuddyTests.m */; };
+		84F55E3F186C2B86001FDB8F /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F55E3E186C2B86001FDB8F /* LoginController.m */; };
+		84F55E41186C2BA7001FDB8F /* LoginViewSmall.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F55E40186C2BA7001FDB8F /* LoginViewSmall.xib */; };
+		84F55E43186C2BD3001FDB8F /* LoginViewBig.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F55E42186C2BD3001FDB8F /* LoginViewBig.xib */; };
+		84F55E46186C4486001FDB8F /* patrolBuddy_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F55E45186C4486001FDB8F /* patrolBuddy_logo.png */; };
+		84F55E4E186C5440001FDB8F /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F55E47186C5440001FDB8F /* blackButton.png */; };
+		84F55E4F186C5440001FDB8F /* cyanButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F55E48186C5440001FDB8F /* cyanButton.png */; };
+		84F55E50186C5440001FDB8F /* cyanButtonSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F55E49186C5440001FDB8F /* cyanButtonSmall.png */; };
+		84F55E51186C5440001FDB8F /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F55E4A186C5440001FDB8F /* greenButton.png */; };
+		84F55E52186C5440001FDB8F /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F55E4B186C5440001FDB8F /* redButton.png */; };
+		84F55E53186C5440001FDB8F /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F55E4C186C5440001FDB8F /* whiteButton.png */; };
+		84F55E54186C5440001FDB8F /* whiteButtonSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F55E4D186C5440001FDB8F /* whiteButtonSmall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,18 @@
 		845C8A3F186C1EA9009FD01D /* patrolbuddyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "patrolbuddyTests-Info.plist"; sourceTree = "<group>"; };
 		845C8A41186C1EA9009FD01D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		845C8A43186C1EA9009FD01D /* patrolbuddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = patrolbuddyTests.m; sourceTree = "<group>"; };
+		84F55E3D186C2B86001FDB8F /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		84F55E3E186C2B86001FDB8F /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		84F55E40186C2BA7001FDB8F /* LoginViewSmall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewSmall.xib; sourceTree = "<group>"; };
+		84F55E42186C2BD3001FDB8F /* LoginViewBig.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewBig.xib; sourceTree = "<group>"; };
+		84F55E45186C4486001FDB8F /* patrolBuddy_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patrolBuddy_logo.png; sourceTree = "<group>"; };
+		84F55E47186C5440001FDB8F /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
+		84F55E48186C5440001FDB8F /* cyanButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cyanButton.png; sourceTree = "<group>"; };
+		84F55E49186C5440001FDB8F /* cyanButtonSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cyanButtonSmall.png; sourceTree = "<group>"; };
+		84F55E4A186C5440001FDB8F /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
+		84F55E4B186C5440001FDB8F /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
+		84F55E4C186C5440001FDB8F /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		84F55E4D186C5440001FDB8F /* whiteButtonSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButtonSmall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +130,7 @@
 		845C8A24186C1EA9009FD01D /* patrolbuddy */ = {
 			isa = PBXGroup;
 			children = (
+				84F55E44186C4465001FDB8F /* Assets */,
 				845C8A4F186C1FE9009FD01D /* Controllers */,
 				845C8A4E186C1FCE009FD01D /* Views */,
 				845C8A4D186C1FB4009FD01D /* Models */,
@@ -155,6 +179,8 @@
 		845C8A4E186C1FCE009FD01D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84F55E40186C2BA7001FDB8F /* LoginViewSmall.xib */,
+				84F55E42186C2BD3001FDB8F /* LoginViewBig.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,8 +190,25 @@
 			children = (
 				845C8A2D186C1EA9009FD01D /* AppDelegate.h */,
 				845C8A2E186C1EA9009FD01D /* AppDelegate.m */,
+				84F55E3D186C2B86001FDB8F /* LoginController.h */,
+				84F55E3E186C2B86001FDB8F /* LoginController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84F55E44186C4465001FDB8F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				84F55E47186C5440001FDB8F /* blackButton.png */,
+				84F55E48186C5440001FDB8F /* cyanButton.png */,
+				84F55E49186C5440001FDB8F /* cyanButtonSmall.png */,
+				84F55E4A186C5440001FDB8F /* greenButton.png */,
+				84F55E4B186C5440001FDB8F /* redButton.png */,
+				84F55E4C186C5440001FDB8F /* whiteButton.png */,
+				84F55E4D186C5440001FDB8F /* whiteButtonSmall.png */,
+				84F55E45186C4486001FDB8F /* patrolBuddy_logo.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +285,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F55E53186C5440001FDB8F /* whiteButton.png in Resources */,
+				84F55E54186C5440001FDB8F /* whiteButtonSmall.png in Resources */,
+				84F55E41186C2BA7001FDB8F /* LoginViewSmall.xib in Resources */,
+				84F55E4E186C5440001FDB8F /* blackButton.png in Resources */,
 				845C8A29186C1EA9009FD01D /* InfoPlist.strings in Resources */,
+				84F55E4F186C5440001FDB8F /* cyanButton.png in Resources */,
 				845C8A31186C1EA9009FD01D /* Images.xcassets in Resources */,
+				84F55E46186C4486001FDB8F /* patrolBuddy_logo.png in Resources */,
+				84F55E50186C5440001FDB8F /* cyanButtonSmall.png in Resources */,
+				84F55E43186C2BD3001FDB8F /* LoginViewBig.xib in Resources */,
+				84F55E51186C5440001FDB8F /* greenButton.png in Resources */,
+				84F55E52186C5440001FDB8F /* redButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +317,7 @@
 			files = (
 				845C8A2F186C1EA9009FD01D /* AppDelegate.m in Sources */,
 				845C8A2B186C1EA9009FD01D /* main.m in Sources */,
+				84F55E3F186C2B86001FDB8F /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +520,7 @@
 				845C8A49186C1EA9009FD01D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845C8A4A186C1EA9009FD01D /* Build configuration list for PBXNativeTarget "patrolbuddyTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +529,7 @@
 				845C8A4C186C1EA9009FD01D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
