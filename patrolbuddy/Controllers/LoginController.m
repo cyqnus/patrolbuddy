@@ -7,13 +7,14 @@
 //
 
 #import "LoginController.h"
-
-@interface LoginController ()
-
+#import "LoginView.h"
+@interface LoginController ()//Not specifying a name for the category makes compiler checks that these methods are implemented.
+@property (nonatomic,strong) LoginView *loginView;
 @end
 
 @implementation LoginController
-@synthesize UserName,Password;
+//@synthesize UserName,Password;
+@synthesize loginView;
 
 - (id)initCustomNibName
 {
@@ -29,6 +30,7 @@
 
 - (void)setupButtons
 {
+    /*
     UIImage *buttonImageNormal = [UIImage imageNamed:@"whiteButton.png"];
     UIImage *buttonImagePressed = [UIImage imageNamed:@"cyanButton.png"];
     UIEdgeInsets insets = UIEdgeInsetsMake(0, 12, 0, 12);
@@ -42,19 +44,21 @@
                                 forState:UIControlStateHighlighted];
     [self.ForgetButton setBackgroundImage:stretchableButtonImagePressed
                                  forState:UIControlStateHighlighted];
+     */
     
 }
-
-
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    loginView = [[LoginView alloc] init];
+    [self.view addSubview:self.loginView];
+    //[self setupButtons];
 	// Do any additional setup after loading the view.
+    /*
     self.UserName = @"";
     self.Password = @"";
-    
-    
+    */
 }
 
 - (void)didReceiveMemoryWarning
@@ -64,9 +68,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)loginButtonPressed:(id)sender
-{
-    NSLog(@"def");
-}
 
 @end

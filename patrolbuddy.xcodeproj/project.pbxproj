@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84151612186EA4470024CCBF /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84151611186EA4470024CCBF /* LoginView.m */; };
 		845C8A1F186C1EA9009FD01D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C8A1E186C1EA9009FD01D /* Foundation.framework */; };
 		845C8A21186C1EA9009FD01D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C8A20186C1EA9009FD01D /* CoreGraphics.framework */; };
 		845C8A23186C1EA9009FD01D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845C8A22186C1EA9009FD01D /* UIKit.framework */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84151610186EA4470024CCBF /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		84151611186EA4470024CCBF /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		845C8A1B186C1EA9009FD01D /* patrolbuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = patrolbuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845C8A1E186C1EA9009FD01D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		845C8A20186C1EA9009FD01D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -181,6 +184,8 @@
 			children = (
 				84F55E40186C2BA7001FDB8F /* LoginViewSmall.xib */,
 				84F55E42186C2BD3001FDB8F /* LoginViewBig.xib */,
+				84151610186EA4470024CCBF /* LoginView.h */,
+				84151611186EA4470024CCBF /* LoginView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 			files = (
 				845C8A2F186C1EA9009FD01D /* AppDelegate.m in Sources */,
 				845C8A2B186C1EA9009FD01D /* main.m in Sources */,
+				84151612186EA4470024CCBF /* LoginView.m in Sources */,
 				84F55E3F186C2B86001FDB8F /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,7 +16,7 @@ LoginController* loginController;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    loginController = [[LoginController alloc] initCustomNibName];
+    loginController = [[LoginController alloc] init];
     self.window.rootViewController = loginController;
     [self.window makeKeyAndVisible];
 
